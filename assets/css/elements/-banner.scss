@@ -1,0 +1,280 @@
+.banner_area {
+	background: #fff;
+	height: 730px;
+	font-family: $font_primary;
+	overflow: hidden;
+
+	a,p,h1,h2,h3,h4,h5,h6 {
+		font-family: $font_primary;
+	}
+
+	.owl-carousel .owl-stage-outer{
+		width: 100%;
+	}
+
+	.owl-item {
+		opacity: 0;
+
+		&.active{
+			opacity: 1;
+		}
+	}
+
+	.banner_two_area .owl-nav {
+		display: block;
+	}
+	.owl-prev {
+		top: calc(50% - 55px);
+		left: -83px;
+		position: absolute;
+		width: 110px;
+		height: 110px;
+		background: #3db5e6 !important;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		border-radius: 50%;
+		text-align: right;
+
+		&:hover {
+			box-shadow: 0px 0px 10px rgba(61, 181, 230,1);
+		}
+
+		i {
+			margin-right: 12px;
+			color: #fff;
+		}
+	}
+
+	.owl-next {
+		top: calc(50% - 55px);
+		right: -83px;
+		position: absolute;
+		width: 110px;
+		height: 110px;
+		background: $home5_primary !important;
+		text-align: left;
+		transition: 0.3s;
+		border-radius: 50%;
+
+		&:hover {
+			box-shadow: 0px 0px 10px rgba(61, 181, 230,1);
+		}
+
+		i {
+			margin-left: 10px;
+			color: #fff;
+		}
+	}
+	.owl-dots {
+		position: absolute;
+		bottom: 115px;
+		left: 14.5%;
+
+
+		.owl-dot {
+
+			span {
+				width: 12px;
+				height: 12px;
+				background: #ebebeb;
+				display: block;
+				margin: 0 2.5px;
+				border-radius: 50%;
+			}
+
+			&.active {
+
+				span {
+					background: $home5_primary;
+				}
+			}
+		}
+	}
+}
+
+.banner_left {
+	height: 77.5vh;
+	display: table;
+	width: 100%;
+	align-items: center;
+	overflow:hidden;
+	position: relative;
+	overflow: hidden;
+	padding-right: 50px;
+	padding-top: 45px;
+
+	.banner_left_cell {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+
+		h1 {
+			font-size: 50px;
+			color: $home5_black;
+			animation-delay: 1s;
+			font-weight: 700;
+			line-height: 1.2;
+			text-transform: capitalize;
+			margin-top: 0;
+			margin-bottom:20px;
+			margin-top: -35px;
+
+			span {
+				color: $home5_primary;
+				text-transform: uppercase;
+				margin-bottom: 25px;
+				display: block;
+			}
+		}
+
+		p {
+			margin-bottom: 55px;
+			font-size: 20px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			text-align: left;
+			color: #424e5a;
+		}
+	}
+}
+
+.home5_banner {
+
+	.btn_two {
+		letter-spacing: 2px;
+		box-shadow: 18px 18px 38px rgba(222,222,222,1);
+
+		&:hover {
+			box-shadow: none;
+		}
+
+		&.active {
+			background: $home5_primary;
+			color: #fff;
+			margin-right: 10px;
+		}
+	}
+}
+
+.banner_right {
+	z-index: 9;
+	position: relative;
+	overflow: hidden;
+	height: 77.5vh;
+	display: table;
+	margin-left: -53px;
+}
+
+.banner_right_cell {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+
+	.bnr_secondary_img {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		margin-top: 71px;
+	}
+}
+
+.megamenu-cookies.blue a{
+	color: $home5_primary;
+}
+@media (min-width: 1200px) and (max-width: 1499px) {
+	.supplement_at_a_glance.section_padding_two {
+		position: relative;
+		z-index: 3;
+	}
+
+	.banner_area .owl-next:hover {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.banner_area .owl-prev:hover {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.banner_area .owl-dots {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.btn_one, .btn_two {
+		width: 133px;
+	}
+	.sn_bnr_slide {
+		padding-top: 0px;
+		height: 598px;
+	}
+	.banner_area .owl-dots {
+		display: none;
+	}
+
+   .banner_slider {
+		padding: 0;
+		height: 598px;
+	}
+	.banner_area {
+		height: 598px;
+	}
+	.banner_right {
+		position: static;
+	}
+	.banner_left,
+	.banner_right {
+		height: 598px;
+	}
+	.banner_left {
+		padding-top: 116px;
+	}
+	.banner_right {
+		padding-top: 90px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.banner_left .banner_left_cell p {
+		font-size: 17px;
+	}
+
+	.banner_area .owl-dots {
+		display: none;
+	}
+
+	.banner_area .owl-next {
+		background: transparent !important;
+
+		&:hover {
+			background: transparent !important;
+		}
+
+		i {
+			color: #3db5e6;
+		}
+	}
+
+	.banner_area .owl-prev {
+		background: transparent !important;
+
+		&:hover {
+			background: transparent !important;
+		}
+
+		i {
+			color: #3db5e6;
+		}
+	}
+
+	.banner_left .banner_left_cell p {
+		margin-bottom: 38px;
+	}
+}

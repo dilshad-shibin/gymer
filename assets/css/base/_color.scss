@@ -1,0 +1,196 @@
+/*--------------------------------------------------------------
+  ##  color
+  --------------------------------------------------------------*/
+  .footer_top_two .widget .widget_title h5 {
+    color: $toolbar_bg;
+}
+
+.widget_post_list li a span i,
+.widget_about_two .widget_address li i,
+.footer_bottom_two .widget_payment a i,
+.footer_bottom_two .widget_payment span b,
+.call_to_action_right .btn_wrapper .btn_one {
+    color: $main_theme_color;
+}
+
+.footer_bottom_two .copyright span, .footer_bottom_two .widget_payment span {
+  color: #666;
+}
+
+.footer_top_two .widget, .footer_top_two .widget a {
+  color: #666;
+}
+
+.widget_store_links .widget_links_list li i {
+  color: $home5_black;
+}
+
+.call_to_action_left h2,
+.call_to_action_left p {
+    color: $text_white;
+}
+
+/*--------------------------------------------------------------
+##  border
+--------------------------------------------------------------*/
+.widget.widget_instafeed .widget_insta_list ul li {
+    border-style: solid;
+    border-color: $text_white;
+}
+.widget.widget_instafeed .widget_insta_list ul li {
+    border-width: 3px;
+}
+
+
+/*--------------------------------------------------------------
+##  background
+--------------------------------------------------------------*/
+.footer_top_two {
+    background: $secondary_theme_color;
+}
+.footer_top_two .widget .widget_title h5::after,
+.call_to_action_area {
+    background: $main_theme_color;
+}
+.call_to_action_right .btn_wrapper .btn_one {
+    color: #fff;
+
+    &:before {
+        border: 1px solid #fff;
+    }
+
+    &:hover {
+        color: $main_theme_color;
+
+        &:after {
+            background: #fff;
+        }
+    }
+}
+
+/*--------------------------------------------------------------
+##  box-shadow
+--------------------------------------------------------------*/
+.widget_instafeed .widget_insta_list ul li {
+    @include box-shadow(0, 9px, 21px, rgba(72, 72, 72, 0.14));
+}
+
+/*--------------------------------------------------------------
+##  svg
+--------------------------------------------------------------*/
+.footer_top_two .widget_logo .svg .st1,
+.footer_top_two .widget_logo .svg .st0 {
+    fill: $main_theme_color;
+    stroke :$main_theme_color;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+##  Color
+--------------------------------------------------------------*/
+
+
+.single_feature_two span {
+    color: $main_theme_color;
+}
+.single_feature_two:hover h5 {
+    color: $main_theme_color;
+}
+
+.about_sub h6 {
+    color:  $main_theme_color;
+}
+.light_style.section_title h2 {
+    color: #fff;
+}
+.light_style.section_title > span {
+    color: #fff;
+}
+.ingredient_content h5 {
+    color: #383838;
+}
+.ingredient_content .mini-des p {
+    color: $text_main;
+}
+.ingridient_list table tr{
+
+    color: $text_body_main;
+
+}
+
+.single_service_two span{
+
+    color: $main_theme_color;
+}
+.single_service_two h6 {
+    color: $box_heading;
+}
+.single_feature_3 span {
+    color: $main_theme_color;
+
+}
+.single_feature_3 h6 {
+    color: $box_heading;
+}
+.single_feature_3 a {
+    color:$main_theme_color;
+}
+.single-servie span {
+    color:$main_theme_color;
+
+}
+.single-servie:hover h6 {
+    color: $main_theme_color;
+}
+/*--------------------------------------------------------------
+##  Background
+--------------------------------------------------------------*/
+
+.single_feature_two span {
+    background: #fff;
+}
+
+.ingredient_content .mini-des ul li{
+    color: #666;
+
+}
+.ingredient_content > p {
+  color: #666;
+}
+.ingredient-img{
+
+    background: #eff8ff;
+    border: 6px solid #fff;
+
+}
+.feature_three{
+    background:#eff8ff;
+}
+
+.single_feature_3{
+    background: #fff;
+}
+
+
+
+.about_image .image_one{
+    background: #e3f1fb;
+}
+.about_image .image_two{
+    background: $main_theme_color;
+}
+
+
+/*--------------------------------------------------------------
+##  Border color
+--------------------------------------------------------------*/
+
+.single_feature_two {
+    border: 1px solid #ebebeb;
+}

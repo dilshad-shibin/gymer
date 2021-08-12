@@ -1,0 +1,41 @@
+.advertise_area {
+
+	.vigo_container_one {
+		background: #eff8ff;
+		padding: 28px;
+	}
+
+	.row.background_white {
+		background: #fff;
+		margin: 0;
+		border-radius: 10px;
+	}
+}
+
+.advertise_text_right {
+	float: right;
+}
+
+.advertise_text_left {
+	display: inline-block;
+
+	span {
+		color: $main_theme_color;
+	}
+}
+
+.advertise_all {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.advertise_cell {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.advertise_area {
+	padding-bottom: 120px;
+}

@@ -1,0 +1,19 @@
+.blog_area_three {
+
+	.sn_post_detail p a span.admin {
+		color: #3734f0;
+	}
+	.sn_post_detail p a:hover {
+		color: #3734f0;
+	}
+	.sn_post_detail a.continue {
+		border: 2px solid $home5_black;
+		color: $home5_black;
+
+		&:hover {
+			border: 2px solid #3734f0;
+			color: #fff;
+			background: #3734f0;
+		}
+	}
+}

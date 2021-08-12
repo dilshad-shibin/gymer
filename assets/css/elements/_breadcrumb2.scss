@@ -1,0 +1,44 @@
+.breadcrumb_area_two {
+	background: rgb(240,107,0);
+	background: linear-gradient(to top, rgba(240,107,0,1) 0%,rgba(240,158,0,1) 100%);
+	background: -moz-linear-gradient(bottom, rgba(240,107,0,1) 0%, rgba(240,158,0,1) 100%);
+	background: -webkit-linear-gradient(bottom, rgba(240,107,0,1) 0%,rgba(240,158,0,1) 100%);
+
+	p,h1,h2,h3,h4,h5,h6,a {
+		font-family: $font_primary;
+	}
+
+	.breadcrumb_inner {
+		height: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.page_header {
+		padding-top: 120px;
+
+		h1 {
+			color: #fff;
+			font-size: 44px;
+			letter-spacing: 5px;
+		}
+	}
+
+	.breadcrumb_text{
+
+		p {
+			color: #fff;
+
+		}
+
+		a {
+			padding: 0;
+			color: #fff;
+		}
+
+		// span {
+		// 	color: #3734f0;
+		// }
+	}
+}

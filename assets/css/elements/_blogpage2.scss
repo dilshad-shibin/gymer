@@ -1,0 +1,123 @@
+.page_content_two {
+
+	.comment-body .reply a {
+		color: #363636;
+	}
+
+	p,h1,h2,h3,h4,h5,h6,a {
+		font-family: $font_primary;
+		letter-spacing: 0.25px;
+	}
+
+	.sin_post h3 a:hover,
+	.post_meta p a span.admin,
+	.pagination ul li:first-child a,
+	.pagination ul li a.active,
+	.pagination ul li:last-child a,
+	.pagination ul li a:hover,
+	.search-submit,
+	.widget_single_post .wid_post_content .post_att i,
+	.widget_single_post .wid_post_content .post_att span,
+	.widget_category ul li span,
+	.widget_archive ul li span,
+	.widget_single_post .wid_post_content h6 a:hover,
+	.widget_category ul li a:hover,
+	.widget_archive ul li a:hover,
+	.sin_post blockquote p i,
+	.sin_post_tag span i,
+	.comment-metadata span {
+		color: #3734f0;
+	}
+
+	.sin_post a.read_more {
+		color: #3734f0;
+	}
+
+	.pagination ul li:first-child:hover {
+		background: #3734f0;
+
+		a {
+			color: #fff;
+		}
+	}
+
+	.pagination ul li:last-child:hover {
+		background: #3734f0;
+
+		a {
+			color: #fff;
+		}
+	}
+
+	.widget h3::after {
+		background: #3734f0;
+	}
+
+	.accordion_btn {
+		padding-left: 0;
+
+		button {
+			font-size: 16px;
+			color: #cf3815;
+			text-transform: uppercase;
+			letter-spacing: 1.8px;
+			padding: 0;
+			border: none;
+			background: transparent;
+			cursor: pointer;
+
+			i {
+				font-size: 21px;
+				vertical-align: middle;
+				color: #cf3815;
+				margin-top: -4px;
+				margin-left: 10px;
+				transition: 0.5s;
+			}
+
+			&:hover i {
+				transform: rotate(-180deg);
+			}
+		}
+	}
+
+	.widget_tags ul li a:hover {
+		color: #3734f0;
+		border: 1px solid #3734f0;
+	}
+
+	.comment-reply-title::after,
+	.comments-title::after {
+		background: #3734f0;
+	}
+
+	.side_bar .widget {
+		background: #f8f8f8;
+	}
+
+	.sin_post h3 {
+		font-size: 20px;
+	}
+	.sin_post p {
+		color: #9e9c9c;
+	}
+
+	.btn_one, .btn_two {
+		border: 2px solid $home5_black;
+		color: $home5_black;
+	}
+	.btn_one:hover::before,
+	.btn_two:hover::before {
+		background-color: #3734f0;
+	}
+	.btn_one:hover, .btn_two:hover {
+		color: $text_white;
+		border-color: #3734f0;
+	}
+	.btn_one::before, .btn_two::before {
+		background: #3734f0;
+	}
+}
+.side_bar .widget:last-child {
+	margin-bottom: 0;
+}

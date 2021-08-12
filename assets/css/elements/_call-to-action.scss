@@ -1,0 +1,97 @@
+.call_to_action_area {
+	padding: 4.5rem 0;
+	background: $main_theme_color;
+}
+
+.call_to_action_left {
+	display: inline-block;
+	text-align: left;
+
+	h2,p {
+		margin-bottom: 0;
+	}
+
+	p {
+		width: 80%;
+		color: $text_white;
+	}
+}
+
+.call_to_action_right {
+	float: right;
+	margin-top: 22px;
+
+	.btn_one {
+		border: 1px solid #fff;
+	}
+
+	.btn_two {
+
+		&:hover {
+			color: #f1b601;
+		}
+	}
+}
+//new
+// .section_title .svg {
+// 	fill: #3734f0;
+// 	stroke: #3734f0;
+// }
+// .section_title h2 span {
+// 	color: #3734f0;
+// }
+// .supp_content h5 {
+// 	color: #3734f0;
+// }
+// .single-testimonial-two > span {
+// 	color: #3734f0;
+// }
+// .single-testimonial-two .tes-name span {
+// 	color: #3734f0;
+// }
+// .filter-button li.active {
+// 	background: #3734f0;
+// }
+// .filter-button li.active::after {
+// 	border: 1px solid #3734f0;
+// }
+// .sin-portfolio::before {
+// 	border-right: 2px solid #3734f0;
+// 	border-bottom: 2px solid #3734f0;
+// }
+// .sin-portfolio::after {
+// 	border-left: 2px solid #3734f0;
+// 	border-top: 2px solid #3734f0;
+// }
+// .sin-portfolio .portfolio_details h5 span {
+// 	color: #3734f0;
+// }
+// .supp_content h5 {
+// 	color: #3734f0 !important;
+// }
+// .supp_icon {
+// 	box-shadow: none!important;
+// }
+// .testimonial-carousel.owl-theme .owl-dots .owl-dot.active span,
+//  .testimonial-carousel.owl-theme .owl-dots .owl-dot:hover span {
+// 	background: #3734f0;
+// }
+// .testimonial_area_two::before {
+// 	background: -webkit-gradient(linear, left bottom, left top, from(#f06b00), to(#f09e00));
+// 	background: -o-linear-gradient(bottom, #f06b00 0%, #f09e00 100%);
+// 	background: linear-gradient(to top, #f06b00 0%, #f09e00 100%);
+// 	opacity: 0.9;
+// }
+// .load_more_portfolio a {
+// 	font-size: 16px;
+// 	color: #cf3815;
+// 	text-transform: uppercase;
+// 	letter-spacing: 1.8px;
+// 	padding: 0;
+// }
+// .load_more_portfolio a {
+// 	color: #cf3815;
+// }
+// .testimonial-carousel.owl-theme .owl-dots .owl-dot span {
+// 	background: #fff;
+// }

@@ -1,0 +1,68 @@
+.call_to_action_grey {
+	padding: 140px 0;
+
+	.call_to_action_left_two p {
+		font-size: 20px;
+		opacity: 1;
+	}
+
+	.call_to_action_area_two::after {
+		display: none;
+	}
+
+	.call_to_action_area_two {
+		background: #ebebeb;
+		position: relative;
+		padding: 50px 0px;
+		box-shadow: 22px 32px 70px rgba(0,0,0,0.15);
+	}
+
+	.call_to_action_left_two h2 {
+		color: $home6_primary;
+	}
+	.call_to_action_hello {
+		padding: 0;
+		border: none;
+		padding: 0px 79px 0 92px;
+	}
+
+	.btn_three {
+		border: 2px solid #fff;
+		color: $home5_black;
+		background: #fff;
+		line-height: 50px;
+	}
+
+	.call_to_action_right_two {
+		height: auto;
+	}
+
+}
+
+.call_to_action_grey .btn_four {
+	color: $home6_primary;
+	border: 2px solid $home6_primary;
+
+	&:hover {
+		background: $home6_primary;
+		color: #fff;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.call_to_action_grey {
+		padding: 80px 0 90px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.call_to_action_grey {
+		padding: 70px 0 90px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	.call_to_action_grey .call_to_action_hello {
+		padding: 0 15px;
+	}
+}
